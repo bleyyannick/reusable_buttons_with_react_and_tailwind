@@ -4,21 +4,23 @@ function App() {
   return (
     <div>
       <div>
-        <Button success outline>
-          HTML5
+        <Button primary>HTML5</Button>
+      </div>
+      <div>
+        <Button warning rounded>
+          CSS3
         </Button>
       </div>
       <div>
-        <Button>CSS3</Button>
+        <Button secondary>JavaScript</Button>
       </div>
       <div>
-        <Button>JavaScript</Button>
+        <Button danger outline>
+          TypeScript
+        </Button>
       </div>
       <div>
-        <Button>TypeScript</Button>
-      </div>
-      <div>
-        <Button>React</Button>
+        <Button success>React</Button>
       </div>
     </div>
   );
